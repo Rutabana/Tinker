@@ -1,0 +1,114 @@
+* {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    top:0%;
+    position: absolute;
+    height: 100%;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    height: 40%;
+    top: 10%;
+    justify-content: center;
+}
+
+.middle {
+    display: flex;
+    height: 40%;
+    align-items: center;
+    justify-content: center;
+    border: 2rem;
+}
+
+.title {
+    display: flex;
+    color: purple;
+    font-size: xxx-large;
+    font-weight: 700;
+    align-items: start;
+    justify-content: center;
+    margin-top: 5%;
+    width: auto;
+    background-color: green;
+    position: absolute;
+    top: 50px;
+}
+
+.tinker {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    justify-content: center;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom {
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.input {
+    all: unset;
+    width: 50%;
+    height: 30px;
+    border-radius: 15px;
+    border-width: none;
+    padding: 7px;
+    background-color: #1F1F29;
+    position: relative;
+    margin-right: 5%;
+    transform: translate(calc(5% + 40px),2rem);
+}
+
+.submit {
+    background-color: blueviolet;
+    width: 100px;
+    height: 40px;
+    transform: translate(calc(5% + 40px),2rem);
+    transition-duration: 300ms;
+}
+
+.submit:hover {
+    background-color: rgba(137, 43, 226, 0.95);
+    transition: ease-in;
+}
+
+.response {
+    position: relative;
+    padding: 5rem;
+    background-color: rgba(40, 18, 61, 0.95);
+    border-radius: 1rem;
+    margin: 2rem;
+}
+
+.answer {
+    font-size: large;
+    bottom: 20%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.code-block {
+    background-color: #150126;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    overflow-x: auto;
+    /* font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    color: white;
+    line-height: 1.4;
+  }
